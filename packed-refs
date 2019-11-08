@@ -1,0 +1,13 @@
+# pack-refs with: peeled fully-peeled sorted 
+f8e030cebd0968e1d9a799ba58a26240c67818ab refs/remotes/origin/aaronchantrill-patch-1
+02994b884f4c48e60d3299374e8d308336c7df47 refs/remotes/origin/jasper-dev
+ca4b9ac9787eb4c9b77fd4ca349ba4cf8275d41e refs/remotes/origin/master
+5bf24b16090666911312c1c8966ead54821c9361 refs/remotes/origin/naomi-dev
+cf81998f371f7d32eecadb2bcf501de1d41360d1 refs/tags/v2.1
+d3c6840f0d50867658bf53ea02a5547e99260783 refs/tags/v2.2
+fda286e8d00042eae368934a7b1770d8df72628e refs/tags/v3.0.M1
+01828731356991ac3c59c390dce32986aed2cc65 refs/tags/v3.0.M2
+c5a053401759c38bbf90ec051a0025db3fc9ca1f refs/tags/v3.0.M3
+88d92d6ee3c45b42d229a29ff11d6dcf93ff9717 refs/tags/v3.0.M7
+49701baab3965e836e41573c8a0fd4e9f70e167f refs/tags/v3.0.M8
+56a3792744ab8d0583d9c6da57206bc862f4bd80 refs/tags/v3.0.M9
