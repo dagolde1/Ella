@@ -7,7 +7,7 @@ import yaml
 
 logging.basicConfig(level=logging.CRITICAL)
 
-configfile = maaria.paths.config('profile.yml')
+configfile = maria.paths.config('profile.yml')
 
 if os.path.exists(configfile):
     with open(configfile, "r") as f:
