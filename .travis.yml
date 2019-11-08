@@ -1,0 +1,30 @@
+env:
+    - ARCH=x86
+language: python
+sudo: false
+python:
+    - "2.7"
+cache:
+  directories:
+    - "$HOME/.pip-cache/"
+    - "/home/travis/virtualenv/python2.7"
+addons:
+  apt:
+    packages:
+    - libmad0
+    - libmad0-dev
+install: 
+    # Install maria core dependencies
+    - "pip install -r python_requirements.txt "
+    # Install additional testing software
+    - "pip install python-coveralls"
+    - "pip install coverage "
+    - "pip install flake8 "
+    - "python ./setup.py install"
+before_script:
+    - "flake8 --config ./.flake8 setup.py maria tests plugins"
+script:
+    - "coverage run ./setup.py test"
+after_success:
+    - "coverage report"
+    - "coveralls"

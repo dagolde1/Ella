@@ -1,0 +1,32 @@
+# Maria core dependencies
+APScheduler==3.5.3
+argparse==1.4.0
+mock==2.0.0
+pytz==2018.5
+PyYAML==3.13
+requests==2.20.0
+blessings
+pyaudio
+pyalsaaudio
+
+#other modules
+python-slugify==1.2.5
+mad==0.2.2
+
+# Pocketsphinx STT engine
+cmuclmtk==0.1.5
+
+# HN module
+semantic==1.0.3
+
+# Birthday/Notifications modules
+facebook-sdk==3.0.0
+
+# Weather/News modules
+feedparser==5.2.1
+
+# Gmail module
+python-dateutil==2.7.3
+
+# MPDControl module
+python-mpd==0.3.0
