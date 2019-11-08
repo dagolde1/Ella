@@ -7,7 +7,7 @@ import yaml
 
 logging.basicConfig(level=logging.CRITICAL)
 
-configfile = naomi.paths.config('profile.yml')
+configfile = maaria.paths.config('profile.yml')
 
 if os.path.exists(configfile):
     with open(configfile, "r") as f:
@@ -15,4 +15,4 @@ if os.path.exists(configfile):
 else:
     config = {}
 
-naomi.populate.run(config)
+maria.populate.run(config)
