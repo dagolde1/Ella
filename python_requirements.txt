@@ -3,7 +3,7 @@ APScheduler==3.5.3
 argparse==1.4.0
 mock==2.0.0
 pytz==2018.5
-PyYAML==5.1
+PyYAML==5.4
 requests==2.20.0
 blessings
 pyaudio
